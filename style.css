@@ -66,7 +66,17 @@ main{
     margin-bottom: 100px;
 }
 
-.col-6{
+.col-4{
+    flex: 33.33%;
+    height: 250px;
+    padding: 10px;
+    margin: 5px;
+    border: 3px solid #0BCEAF;
+    text-align: center;
+  }
+
+
+.row{
     display: flex;
     -ms-flex-align: center;
     justify-content: space-around;
