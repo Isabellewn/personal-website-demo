@@ -211,7 +211,19 @@ table,th,td{
     transform: translateY(-15px);
   }
 
-
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .zoom{
+    transition: transform .3s;
+  }
+  .zoom:hover{
+    transform: scale(1.2);
+  }
 
 @media (max-width: 1024px){
     .right{
