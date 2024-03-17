@@ -17,8 +17,7 @@ header{
 
 .left{
     font-size: 20px;
-    text-decoration: underline;
-    text-decoration-color: #0BCEAF;
+    font-weight: bold
     
 }
 
@@ -180,19 +179,20 @@ table,th,td{
 }
 
 .btn {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
     border: none;
     background: #0BCEAF;
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 1;
   }
   
   .btn:hover {
     transform: translateY(-15px);
+    color:black;
   }
 
   .btn-for-pro{
