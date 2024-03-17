@@ -119,6 +119,12 @@ main{
 
 }
 
+.img-rectangle{
+    width: 400px;
+    height: auto;
+
+}
+
 .img-work{
     width: 300px;
     height: auto;
